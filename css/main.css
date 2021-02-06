@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    background-color: #333333;
+    color: white;
+}
+
+.container {
+    display: block;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.wraper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+/* font-family: 'Nunito', sans-serif; */
