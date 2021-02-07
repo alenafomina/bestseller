@@ -6,8 +6,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #333333;
-    color: white;
+    color: black;
 }
 
 .container {
@@ -31,6 +30,12 @@ body {
 
 .section {
     padding: 50px 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
 }
 
 /* font-family: 'Nunito', sans-serif; */

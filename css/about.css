@@ -1,4 +1,54 @@
 .about {
     min-height: 100vh;
-    background-color: gray;
+}
+
+.quote {
+    width: 1060px;
+    padding-left: 80px;
+}
+
+.quote__quote {
+    border-top: 4px solid black;
+    padding: 20px 0 0;
+    overflow: hidden;
+    
+}
+
+.quote__title {
+    margin-bottom: 30px;
+}
+
+.quote__text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.quote_avatar {
+  width: 80px;
+  margin-right: 20px;  
+  border-radius: 50%; 
+}  
+
+
+.quote__autor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.quote__autor-info {
+    line-height: 22px;
+}
+
+
+.quote__autor-name {
+    display: block;
+    color:#f2b3b3;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quote__autor-role {
+    display: block;
 }
