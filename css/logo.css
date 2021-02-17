@@ -1,0 +1,26 @@
+.logo {
+    padding: 35px 0 35px;
+    font-family: 'Montrell',Arial,sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.23;
+    text-align: center;
+}
+
+
+.logo1 {
+  padding: 20px;
+  align-items: center;
+  width: 20%;
+  display: flex;
+}
+
+.logo1 img {
+    max-width: 100%;
+}
+
+.logo-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
