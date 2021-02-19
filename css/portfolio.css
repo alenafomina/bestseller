@@ -8,18 +8,35 @@
 }
 
 .video {
-    padding: 20px 20px 0 20px;
+    padding: 20px  0;
     display: block;
     align-items: center;
-    width: 50%;
+    width: calc(50% - 20px);
+}
+
+.video__box {
+    position: relative;
+    padding-top: 56%;
+    background-color: black;
 }
 
 .video iframe {
     max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .portfolio__video {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.55;
+    font-family: 'Montrell',Arial,sans-serif;
+    font-weight: 300;
+    padding: 5px 0 10px;
 }
