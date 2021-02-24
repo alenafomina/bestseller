@@ -39,3 +39,7 @@ align-items: center;
     margin: 30px auto 45px auto;
     width: 250px;
 }
+
+.player {
+    width: 100%;
+}
