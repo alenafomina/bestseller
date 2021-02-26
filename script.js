@@ -1,7 +1,8 @@
 const player = document.getElementById("player");
-window.addEventListener("load", function(){
-    setTimeout(function(){ 
+
+    setTimeout(function(){
+        player.muted = true 
         player.volume = 0;
         player.play();
+        player.muted = false
     }, 500);
-});

@@ -1,23 +1,30 @@
 .head {
 display: block;
 justify-content: center;
-padding: 20px 0;
+padding: 0px 0 20px;
 align-items: center;
+}
+
+.head__menu__block {
+    display: flex;
+    justify-content: center;
+
 }
 
 .head__menu {
     margin-bottom: 7px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
+
 
 .head__menu-item {
     text-transform: uppercase;
     font-weight: 600;
     font-family: sans-serif;
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 15px;
+    padding: 10px 50px;
     color:black;
     font-weight: bold;
     cursor: pointer;
@@ -33,6 +40,56 @@ align-items: center;
 .head__menu-item:last-child {
     padding-right: 0;
 }
+
+.head__link-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.phone__link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+.phone__link:hover {
+    color: #D1A954;
+    transform: scale(1.2);
+}
+
+.tele {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.tele:hover {
+    transform: scale(1.2);
+}
+
+.whats {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.whats:hover {
+    transform: scale(1.2);
+} 
+
 
 .head__img {
     display: block;
