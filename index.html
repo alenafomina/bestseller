@@ -19,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
     <title>Bestseller</title>
 
-    <script src="https://www.youtube.com/iframe_api"></script>
 
 </head>
 <body>
@@ -28,15 +27,15 @@
             <div class="container">
                 <div class="head__link-box">
                     <div class="phone">
-                        <a href=”tel:79959019084” class="phone__link" target="_blank">+7 995 901-90-84</a>
+                        <a href="tel:79959019084" class="phone__link">+7 995 901-90-84</a>
                     </div>
                     <div class="head__link">
                                 
-                        <a href="tg://resolve?domain=ElenaBestseller" target="_blank"><img src="img/icons8-телеграмма-app.svg" alt="telegram" class="tele"></a>
+                        <a href="tg://resolve?domain=ElenaBestseller" target="_blank"><img src="./img/telegram.svg" alt="telegram" class="tele"></a>
                         
                     </div>
                     <div class="whatsapp">
-                        <a href="https://wa.me/79959019084?" target="_blank"><img src="./img/icons8-whatsapp.svg" alt="whats" class="whats"></a>
+                        <a href="https://wa.me/79959019084?" target="_blank"><img src="./img/whatsapp.svg" alt="whats" class="whats"></a>
                     </div>
                 </div>
                 <div class="head">
@@ -44,16 +43,18 @@
                     <div class="head__menu__block">
                         <div class="head__menu">
                             <a href="#about" class="head__menu-item">О компании</a>
-                            <a href="#" class="head__menu-item">Работы</a>
-                            <a href="#" class="head__menu-item">Клиенты</a>
-                            <a href="#" class="head__menu-item">Контакты</a>
+                            <a href="#showreels" class="head__menu-item">Showreels</a>
+                            <a href="#works" class="head__menu-item">Работы</a>
+                            <a href="#logo" class="head__menu-item">Клиенты</a>
+                            <a href="#team" class="head__menu-item">Команда</a>
+                            <a href="#contacts" class="head__menu-item">Контакты</a>
                         </div>
                     </div>
                 </div>
 
             </div>
             <video id="player" class="player" loop>
-                <source src="video/529674133.mp4">
+                <source src="video/1121212121212.mp4">
             </video>
             
             <script src="script.js"></script>
@@ -107,52 +108,52 @@
          </section>
 
          <section class="works">
-            <div class="container">
+            <div class="container" id="showreels">
                 <h2 class="works__title">Посмотри наши SHOWRELLS</h2>
 
 
 
             </div>
             <div class="works__list">
-                <a href="#" class="works__item" >
+                <a href="https://vimeo.com/165699716" class="works__item" target="_blank">
                     <div class="works__rect" style="background-image: url(img/h1.webp);">
                         <div class="works__item-text">
-                            <div class="works__item-title">Заголовок</div>
-                            <div class="works__item-subtitle">Подзаголовок</div>
+                            <div class="works__item-title"> Showreel</div>
+                            <div class="works__item-subtitle">Режиссёрский</div>
                         </div>
                     </div>
                 </a>
 
-                <a href="#" class="works__item" >
+                <a href="https://vimeo.com/166260677" class="works__item" target="_blank">
                     <div class="works__rect" style="background-image: url(img/h2.webp);">
                         <div class="works__item-text">
-                            <div class="works__item-title">Заголовок</div>
-                            <div class="works__item-subtitle">Подзаголовок</div>
+                            <div class="works__item-title">Showreel</div>
+                            <div class="works__item-subtitle">Операторский</div>
                         </div>
                     </div>
                 </a>
 
-                <a href="#" class="works__item" >
+                <a href="https://youtu.be/VoEwRuBERPA" class="works__item" >
                     <div class="works__rect" style="background-image: url(img/h3.webp);">
                         <div class="works__item-text">
-                            <div class="works__item-title">Заголовок</div>
-                            <div class="works__item-subtitle">Подзаголовок</div>
+                            <div class="works__item-title">Showreel</div>
+                            <div class="works__item-subtitle">2019</div>
                         </div>
                     </div>
                 </a>
 
-                <a href="#" class="works__item" >
+                <a href=" https://youtu.be/82DOU8jpUMo" class="works__item" >
                     <div class="works__rect" style="background-image: url(img/h4.webp);">
                         <div class="works__item-text">
-                            <div class="works__item-title">Заголовок</div>
-                            <div class="works__item-subtitle">Подзаголовок</div>
+                            <div class="works__item-title">Showreel</div>
+                            <div class="works__item-subtitle">Графика</div>
                         </div>
                     </div>
                 </a>
             </div>
          </section>
 
-         <section class="logo">
+         <section id="logo" class="logo">
              <div class="container">
                  <h2 class="logo">Нам доверяют известные бренды
                  </h2>
@@ -237,7 +238,7 @@
              </div>
          </section>
 
-        <section class="portfolio">
+        <section id="works" class="portfolio">
             <div class="container">
                 <h2 class="portfolio__title">Примеры работ
                 </h2>
@@ -407,7 +408,7 @@
 
 
         <section class="team">
-            <div class="container">
+            <div class="container" id="team">
                 <h2 class="team__title">Мы стараемся каждый день, <br>
                     чтобы создавать вдохновляющие видео</h2>
 
@@ -443,19 +444,33 @@
             </div>
         </section>
 
-        <section class="team">
+        <section id="contacts" class="team">
             <div class="container">
                 <div class="contacts">
                     <div class="contacts__text">
                         <div class="cont">Контакты</div>
-                       <div class="cont__2"> +7 995 901 90 84 <br>
+                       <div class="cont__2">
+                            <div class="phone">
+                        <a href="tel:79959019084" class="phone__link__contacts">+7 995 901-90-84</a>
+                    </div>
                         eabestseller@gmail.com <br>
                         г. Москва, 1 ая улица машиностроения дом 4к1 </div>
-                    </div>
-                        <div class="contacts__map">
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3a4befe12f3e19cfb8c2ed87e1bfbc27037c9605c07a5395a7161c7710145404&amp;width=660&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                        <div class="head__link__contacts">
+            
+                            <div class="tele">
+                                        
+                                <a href="tg://resolve?domain=ElenaBestseller" target="_blank"><img src="./img/telegram.svg" alt="telegram" class="tele"></a>
+                                
+                            </div>
+                            <div class="whatsapp">
+                                <a href="https://wa.me/79959019084?" target="_blank"><img src="./img/whatsapp.svg" alt="whats" class="whats"></a>
+                            </div>
                         </div>
-                 </div>
+                    </div>
+                    <div class="contacts__map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3a4befe12f3e19cfb8c2ed87e1bfbc27037c9605c07a5395a7161c7710145404&amp;width=660&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
             </div>
         </section>
 
