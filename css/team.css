@@ -6,7 +6,7 @@
 
 .fhoto {
     display: flex;
-    width: 260px;
+    width: 100%;
     padding-top: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,11 +15,12 @@
 
 .ava1 {
     margin: 8.5px 8.5px;
+    width: 23%;
 }
 
 .fhoto__box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
     
@@ -45,27 +46,27 @@
 }
 
 @media (max-width: 1200px) {
-    .fhoto {
+    . {
         max-width: 960px;
     }
 }
 
 
 @media (max-width: 980px) {
-    .fhoto {
-        max-width: 730px;
+    .ava1 {
+        width: 40%;
     }
 }
 
 
 @media (max-width: 750px) {
-    .fhoto {
-        max-width: 530px;
+    .ava1 {
+        width: 40%;
     }
 }
 
 @media (max-width: 550px) {
     .ava1 {
-        
+        width: 40%;
     }
 }
