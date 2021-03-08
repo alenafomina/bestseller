@@ -38,4 +38,23 @@ body {
     }
 }
 
+
+@media (max-width: 980px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 530px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: calc(100% - 20px);
+    }
+}
 /* font-family: 'Nunito', sans-serif; */

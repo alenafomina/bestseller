@@ -78,3 +78,22 @@
     transform: translateY(0px);
 }
 
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 980px) {
+    
+}
+
+
+@media (max-width: 750px) {
+    
+}
+
+@media (max-width: 550px) {
+    .works__item {
+        width: 100%;
+    }
+}
