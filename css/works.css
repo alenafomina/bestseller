@@ -95,5 +95,13 @@
 @media (max-width: 550px) {
     .works__item {
         width: 100%;
+        
     }
 }
+@media (max-width: 550px) {
+    .works__item-title  {
+        
+        
+    }
+}
+

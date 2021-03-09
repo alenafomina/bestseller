@@ -49,3 +49,14 @@
         width: 30%;
     }
 }
+
+@media (max-width: 550px) {
+    .logo {
+        padding: 35px 0 35px;
+        font-family: 'Montrell',Arial,sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.23;
+        text-align: center;  
+    }
+}
