@@ -44,11 +44,7 @@
     }
 }
 
-@media (max-width: 550px) {
-    .logo1 {
-        width: 30%;
-    }
-}
+
 
 @media (max-width: 550px) {
     .logo {
@@ -59,4 +55,11 @@
         line-height: 1.23;
         text-align: center;  
     }
+
+    .logo1 {
+        padding: 15px;
+        align-items: center;
+        width: 30%;
+        display: flex;
+      }
 }

@@ -1,8 +1,20 @@
+.contacts_block {
+    width: 50%;
+    position: relative;
+}
+
+
+
 .contacts__map {
     width: calc(100% - 460px);
-    height: 400px;
+    padding: 60.6%;
     background-color: black; 
     margin-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 
 }
 
