@@ -1,22 +1,8 @@
 .contacts_block {
     width: 50%;
-    position: relative;
 }
 
 
-
-.contacts__map {
-    width: calc(100% - 460px);
-    padding: 60.6%;
-    background-color: black; 
-    margin-left: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-
-}
 
 .contacts__text {
     width: 460px;
@@ -46,7 +32,8 @@
 .contacts {
     padding: 150px 0;
     display: flex;
-    width: 50%;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .cont {
     font-size: 28px;
@@ -67,4 +54,17 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 10px;
+}
+
+
+@media (max-width: 750px) {
+    .contacts_block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .contacts_block {
+        width: 100%;
+    }
 }
