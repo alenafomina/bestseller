@@ -110,7 +110,7 @@ align-items: center;
     .head {
         padding: 0;
     }
-    
+
     .tele:hover {
         transform: scale(1.0);
     }
@@ -131,4 +131,5 @@ align-items: center;
         font-size: 15px;
         color:white;
         font-weight: bold;
+        padding: 0;
 }
