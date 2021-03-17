@@ -47,4 +47,9 @@
     .video {
         width: 100%;
     }
+
+    .portfolio__title {
+        padding: 40px 0 30px;
+        font-size: 42px;
+    }
 }

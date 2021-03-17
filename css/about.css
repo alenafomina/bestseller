@@ -53,3 +53,37 @@
 .quote__autor-role {
     display: block;
 }
+
+
+@media (max-width: 980px) {
+    .quote {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .quote__text {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.55;
+    }
+
+    .quote__autor {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .history__video {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 550px) {
+
+}
+
+

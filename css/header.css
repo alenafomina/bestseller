@@ -2,3 +2,16 @@
     width: 100%;
     min-height: 100vh;
 }
+
+@media (max-width: 980px) {
+    .header {
+        min-height: auto;
+    }
+}
+
+
+@media (max-width: 750px) {
+    
+}
+
+@media (max-width: 550px) {

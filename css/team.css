@@ -62,12 +62,17 @@
 
 @media (max-width: 470px) {
     .fhoto__box {
-
-        justify-content: center;
         
     }
     .ava1 {
-        width: 300px;
-
+        width: calc(50% - 5px);
     }
+
+    .team__title {
+        padding: 0 0 30px;
+        font-family: 'Montrell',Arial,sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+}
 }

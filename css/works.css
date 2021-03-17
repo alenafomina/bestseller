@@ -97,11 +97,18 @@
         width: 100%;
         
     }
-}
-@media (max-width: 550px) {
-    .works__item-title  {
-        
-        
+    .works__item-text {
+        background-color: rgba(0,0,0,0.3);
+    }
+
+    .works__item-title {
+        font-size: 20px;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    .works__item-subtitle {
+        opacity: 1;
+        transform: translateY(0px)
     }
 }
-

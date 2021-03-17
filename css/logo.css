@@ -48,7 +48,7 @@
 
 @media (max-width: 550px) {
     .logo {
-        padding: 35px 0 35px;
+        padding: 10px 0 0;
         font-family: 'Montrell',Arial,sans-serif;
         font-weight: 600;
         font-size: 30px;
