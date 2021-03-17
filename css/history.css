@@ -4,16 +4,62 @@
     padding-bottom: 90px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .history__text {
-    width: calc(100% - 560px - 20px);
+    width: calc(50% - 20px);
     font-size: 20px;
     line-height: 1.55;
     font-weight: 300;
 }
 
 .history__video {
-    width: 560px;
-    background-color: black;
+    display: block;
+    align-items: center;
+    width: calc(50% - 20px);
+
+
 }
+
+.history_video__block {
+    width: 100%;
+    position: relative;
+    padding-top: 56%;
+    background-color: black;
+
+}
+
+
+.history_video__block iframe {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width: 980px) {
+    .history__text {
+        font-size: 16px;
+        line-height: 1.55;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 750px) {
+    .history__text {
+        width: 100%;
+    }
+
+    .history__video {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 550px) {
+
+}
+
+
