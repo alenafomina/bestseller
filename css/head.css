@@ -79,7 +79,6 @@ align-items: center;
 }
 
 .tele:hover {
-    color: #D1A954;
     transform: scale(1.2);
 }
 
@@ -91,7 +90,6 @@ align-items: center;
 }
 
 .whats:hover {
-    color: #D1A954;
     transform: scale(1.2);
 } 
 
@@ -104,4 +102,15 @@ align-items: center;
 
 .player {
     width: 100%;
+}
+
+
+@media (max-width: 980px) {
+    .tele:hover {
+        transform: scale(1.0);
+    }
+
+    .whats:hover {
+        transform: scale(1.0);
+    }
 }
